@@ -23,6 +23,9 @@ export class GithubAPIClient {
       this.requestUserPullRequest(username),
       this.requestUserRepository(username),
     ]);
+    // console.log({
+    //   results
+    // })
     if (results.some((r) => r == null)) {
       return null;
     }
@@ -127,6 +130,9 @@ export class GithubAPIClient {
       ).catch((error) => {
         console.error(error.response.data);
       });
+      console.info({
+        response
+      })
       if (response.data.data !== undefined) {
         break;
       }
