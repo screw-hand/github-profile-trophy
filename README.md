@@ -501,7 +501,9 @@ Check [CONTRIBUTING.md](./CONTRIBUTING.md) for more details.
 
 # init project
 
+```shel
 git remote add upstream https://github.com/ryo-ma/github-profile-trophy.git
 git fetch upstream -p
 git remote add super-upstream https://github.com/lucthienphong1120/github-trophies.git
 get fetch super-upstream -p
+```
