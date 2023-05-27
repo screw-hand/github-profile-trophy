@@ -507,3 +507,27 @@ git fetch upstream -p
 git remote add super-upstream https://github.com/lucthienphong1120/github-trophies.git
 get fetch super-upstream -p
 ```
+
+# show all theme rank
+
+![https://github-profile-trophy.screw-hand.vercel.app/?username=screw-hand&rank=SECRET&theme=flat](https://github-profile-trophy.screw-hand.vercel.app/?username=screw-hand&rank=SECRET&theme=flat)
+![https://github-profile-trophy.screw-hand.vercel.app/?username=screw-hand&rank=SECRET&theme=onedark&no-bg=true](https://github-profile-trophy.screw-hand.vercel.app/?username=screw-hand&rank=SECRET&theme=onedark&no-bg=true)
+![https://github-profile-trophy.screw-hand.vercel.app/?username=screw-hand&rank=SECRET&theme=gruvbox&no-bg=true](https://github-profile-trophy.screw-hand.vercel.app/?username=screw-hand&rank=SECRET&theme=gruvbox&no-bg=true)
+![https://github-profile-trophy.screw-hand.vercel.app/?username=screw-hand&rank=SECRET&theme=dracula&no-bg=true](https://github-profile-trophy.screw-hand.vercel.app/?username=screw-hand&rank=SECRET&theme=dracula&no-bg=true)
+![https://github-profile-trophy.screw-hand.vercel.app/?username=screw-hand&rank=SECRET&theme=monokai&no-bg=true](https://github-profile-trophy.screw-hand.vercel.app/?username=screw-hand&rank=SECRET&theme=monokai&no-bg=true)
+![https://github-profile-trophy.screw-hand.vercel.app/?username=screw-hand&rank=SECRET&theme=chalk&no-bg=true](https://github-profile-trophy.screw-hand.vercel.app/?username=screw-hand&rank=SECRET&theme=chalk&no-bg=true)
+![https://github-profile-trophy.screw-hand.vercel.app/?username=screw-hand&rank=SECRET&theme=nord&no-bg=true](https://github-profile-trophy.screw-hand.vercel.app/?username=screw-hand&rank=SECRET&theme=nord&no-bg=true)
+![https://github-profile-trophy.screw-hand.vercel.app/?username=screw-hand&rank=SECRET&theme=alduin&no-bg=true&no-bg=true](https://github-profile-trophy.screw-hand.vercel.app/?username=screw-hand&rank=SECRET&theme=alduin&no-bg=true&no-bg=true)
+![https://github-profile-trophy.screw-hand.vercel.app/?username=screw-hand&rank=SECRET&theme=darkhub&no-bg=true](https://github-profile-trophy.screw-hand.vercel.app/?username=screw-hand&rank=SECRET&theme=darkhub&no-bg=true)
+![https://github-profile-trophy.screw-hand.vercel.app/?username=screw-hand&rank=SECRET&theme=juicyfresh&no-bg=true](https://github-profile-trophy.screw-hand.vercel.app/?username=screw-hand&rank=SECRET&theme=juicyfresh&no-bg=true)
+![https://github-profile-trophy.screw-hand.vercel.app/?username=screw-hand&rank=SECRET&theme=buddhism&no-bg=true](https://github-profile-trophy.screw-hand.vercel.app/?username=screw-hand&rank=SECRET&theme=buddhism&no-bg=true)
+![https://github-profile-trophy.screw-hand.vercel.app/?username=screw-hand&rank=SECRET&theme=radical&no-bg=true](https://github-profile-trophy.screw-hand.vercel.app/?username=screw-hand&rank=SECRET&theme=radical&no-bg=true)
+![https://github-profile-trophy.screw-hand.vercel.app/?username=screw-hand&rank=SECRET&theme=onestar](https://github-profile-trophy.screw-hand.vercel.app/?username=screw-hand&rank=SECRET&theme=onestar)
+![https://github-profile-trophy.screw-hand.vercel.app/?username=screw-hand&rank=SECRET&theme=discord](https://github-profile-trophy.screw-hand.vercel.app/?username=screw-hand&rank=SECRET&theme=discord)
+![https://github-profile-trophy.screw-hand.vercel.app/?username=screw-hand&rank=SECRET&theme=algolia](https://github-profile-trophy.screw-hand.vercel.app/?username=screw-hand&rank=SECRET&theme=algolia)
+![https://github-profile-trophy.screw-hand.vercel.app/?username=screw-hand&rank=SECRET&theme=gitdimmed](https://github-profile-trophy.screw-hand.vercel.app/?username=screw-hand&rank=SECRET&theme=gitdimmed)
+![https://github-profile-trophy.screw-hand.vercel.app/?username=screw-hand&rank=SECRET&theme=tokyonight](https://github-profile-trophy.screw-hand.vercel.app/?username=screw-hand&rank=SECRET&theme=tokyonight)
+![https://github-profile-trophy.screw-hand.vercel.app/?username=screw-hand&rank=SECRET&theme=matrix](https://github-profile-trophy.screw-hand.vercel.app/?username=screw-hand&rank=SECRET&theme=matrix)
+![https://github-profile-trophy.screw-hand.vercel.app/?username=screw-hand&rank=SECRET&theme=apprentice](https://github-profile-trophy.screw-hand.vercel.app/?username=screw-hand&rank=SECRET&theme=apprentice)
+![https://github-profile-trophy.screw-hand.vercel.app/?username=screw-hand&rank=SECRET&theme=dark\_dimmed](https://github-profile-trophy.screw-hand.vercel.app/?username=screw-hand&rank=SECRET&theme=dark_dimmed)
+![https://github-profile-trophy.screw-hand.vercel.app/?username=screw-hand&rank=SECRET&theme=dark\_lover](https://github-profile-trophy.screw-hand.vercel.app/?username=screw-hand&rank=SECRET&theme=dark_lover)
