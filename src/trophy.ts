@@ -10,11 +10,11 @@ class RankCondition {
   ) {}
 }
 
-let wantAchieveSuperRank = false;
+let wantAchieveSuperRank = true;
 let wantMultipleLang = true;
 let wantLongTimeAccount = true;
-let wantAncientAccount = false;
-let wantNewAccount = false;
+let wantAncientAccount = true;
+let wantNewAccount = true;
 let wantMultipleOrganizations = true;
 
 export class Trophy {
