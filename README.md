@@ -502,10 +502,13 @@ Check [CONTRIBUTING.md](./CONTRIBUTING.md) for more details.
 # init project
 
 ```shel
-git remote add upstream https://github.com/ryo-ma/github-profile-trophy.git
+git remote add upstream git@github.com:ryo-ma/github-profile-trophy.git
 git fetch upstream -p
-git remote add super-upstream https://github.com/lucthienphong1120/github-trophies.git
+git remote add super-upstream git@github.com:lucthienphong1120/github-trophies.git
 git fetch super-upstream -p
+
+git merge upstream/master
+git pull super-upstream main --allow-unrelated-histories
 ```
 
 # show all theme rank
