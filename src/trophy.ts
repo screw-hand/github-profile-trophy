@@ -173,7 +173,7 @@ export class LongTimeAccountTrophy extends Trophy{
       new RankCondition(
         RANK.SECRET,
         "Village Elder",
-        0,
+        10,
       ),
     ];
     super(score, rankConditions);
@@ -189,7 +189,7 @@ export class MultipleOrganizationsTrophy extends Trophy{
         RANK.SECRET,
         // or if this doesn't render well: "Factorum"
         "Jack of all Trades",
-        0,
+        3,
       ),
     ];
     super(score, rankConditions);
