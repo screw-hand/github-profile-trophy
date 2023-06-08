@@ -16,12 +16,9 @@ export class Card {
     private marginHeight: number,
     private noBackground: boolean,
     private noFrame: boolean,
-    private wantParams: { [key: string]: boolean},
   ) {
     this.width = panelSize * this.maxColumn +
       this.marginWidth * (this.maxColumn - 1);
-
-    TrophyList.wantParams = wantParams
   }
   render(
     userInfo: UserInfo,

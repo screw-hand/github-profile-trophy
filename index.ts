@@ -3,6 +3,7 @@ import { Card } from "./src/card.ts";
 import { CONSTANTS, parseParams } from "./src/utils.ts";
 import { COLORS, Theme } from "./src/theme.ts";
 import { Error400, Error404 } from "./src/error_page.ts";
+import { Want } from './src/want.ts'
 import "https://deno.land/x/dotenv@v0.5.0/load.ts";
 
 const apiEndpoint = Deno.env.get("GITHUB_API") || CONSTANTS.DEFAULT_GITHUB_API;
@@ -41,19 +42,12 @@ export default async (req: Request) => {
     r.split(",")
   ).map((r) => r.trim());
   const wantAll = params.getBooleanValue("wantAll", false);
-  const wantParams = {
-    wantAchieveSuperRank:
-      wantAll || params.getBooleanValue("wantAchieveSuperRank", false),
-    wantMultipleLang:
-      wantAll || params.getBooleanValue("wantMultipleLang", false),
-    wantLongTimeAccount:
-      wantAll || params.getBooleanValue("wantLongTimeAccount", false),
-    wantAncientAccount:
-      wantAll || params.getBooleanValue("wantAncientAccount", false),
-    wantNewAccount: wantAll || params.getBooleanValue("wantNewAccount", false),
-    wantMultipleOrganizations:
-      wantAll || params.getBooleanValue("wantMultipleOrganizations", false),
-  };
+  Want.AchieveSuperRank = wantAll || params.getBooleanValue("wantAchieveSuperRank", false);
+  Want.MultipleLang = wantAll || params.getBooleanValue("wantMultipleLang", false);
+  Want.LongTimeAccount = wantAll || params.getBooleanValue("wantLongTimeAccount", false);
+  Want.AncientAccount = wantAll || params.getBooleanValue("wantAncientAccount", false);
+  Want.NewAccount = wantAll || params.getBooleanValue("wantNewAccount", false);
+  Want.MultipleOrganizations = wantAll || params.getBooleanValue("wantMultipleOrganizations", false);
 
   if (username === null) {
     const [base] = req.url.split("?");
@@ -95,7 +89,6 @@ export default async (req: Request) => {
       paddingHeight,
       noBackground,
       noFrame,
-      wantParams
     ).render(userInfo, theme),
     {
       headers: new Headers(

@@ -2,6 +2,7 @@ import { getTrophyIcon, getNextRankBar } from "./icons.ts";
 import { TrophyList } from "./trophy_list.ts";
 import { CONSTANTS, RANK, abridgeScore, RANK_ORDER } from "./utils.ts";
 import { Theme } from "./theme.ts";
+import { Want } from './want.ts'
 
 class RankCondition {
   constructor(
@@ -109,7 +110,7 @@ export class MultipleLangTrophy extends Trophy{
       new RankCondition(
         RANK.SECRET,
         "Rainbow Lang User",
-        (TrophyList.wantParams.wantMultipleLang) ? 0 : 10,
+        (Want.MultipleLang) ? 0 : 10,
       ),
     ];
     super(score, rankConditions);
@@ -140,7 +141,7 @@ export class AchieveSuperRankTrophy extends Trophy{
       new RankCondition(
         RANK.SECRET,
         "SSS Rank Hacker",
-        (TrophyList.wantParams.wantAchieveSuperRank) ? 0 : 1,
+        (Want.AchieveSuperRank) ? 0 : 1,
       ),
     ];
     super(score, rankConditions);
@@ -156,7 +157,7 @@ export class NewAccountTrophy extends Trophy{
       new RankCondition(
         RANK.SECRET,
         "Everything started...",
-        (TrophyList.wantParams.wantNewAccount) ? 0 : 1,
+        (Want.NewAccount) ? 0 : 1,
       ),
     ];
     super(score, rankConditions);
@@ -172,7 +173,7 @@ export class AncientAccountTrophy extends Trophy{
       new RankCondition(
         RANK.SECRET,
         "Ancient User",
-        (TrophyList.wantParams.wantAncientAccount) ? 0 : 1,
+        (Want.AncientAccount) ? 0 : 1,
       ),
     ];
     super(score, rankConditions);
@@ -188,7 +189,7 @@ export class LongTimeAccountTrophy extends Trophy{
       new RankCondition(
         RANK.SECRET,
         "Village Elder",
-        (TrophyList.wantParams.wantLongTimeAccount) ? 0 : 3,
+        (Want.LongTimeAccount) ? 0 : 3,
       ),
     ];
     super(score, rankConditions);
@@ -205,7 +206,7 @@ export class MultipleOrganizationsTrophy extends Trophy{
         RANK.SECRET,
         // or if this doesn't render well: "Factorum"
         "Jack of all Trades",
-        (TrophyList.wantParams.wantMultipleOrganizations) ? 0 : 3,
+        (Want.MultipleOrganizations) ? 0 : 3,
       ),
     ];
     super(score, rankConditions);

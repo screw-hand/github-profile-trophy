@@ -21,7 +21,6 @@ import { RANK_ORDER, RANK } from "./utils.ts";
 
 export class TrophyList {
   private trophies = new Array<Trophy>();
-  static wantParams: { [key: string]: boolean } = {};
   constructor(userInfo: UserInfo) {
     // Base trophies
     this.trophies.push(
