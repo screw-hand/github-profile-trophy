@@ -84,9 +84,10 @@ export class UserInfo {
       new Date(userActivity.createdAt).getTime();
     const durationYear = new Date(durationTime).getUTCFullYear() - 1970;
     const ancientAccount =
-      new Date(userActivity.createdAt).getFullYear() <= (new Date()).getFullYear() ? 1 : 0;
-    const newAccount = 
-      new Date(userActivity.createdAt).getFullYear() <= (new Date()).getFullYear() ? 1 : 0;
+      new Date(userActivity.createdAt).getFullYear() <= 2010 ? 1 : 0;
+    const newAccount = new Date(userActivity.createdAt).getFullYear() == 2020
+      ? 1
+      : 0;
     const ogAccount =
       new Date(userActivity.createdAt).getFullYear() <= 2008 ? 1 : 0;
 
