@@ -40,6 +40,20 @@ export default async (req: Request) => {
   const ranks: Array<string> = params.getAll("rank").flatMap((r) =>
     r.split(",")
   ).map((r) => r.trim());
+  const wantAll = params.getBooleanValue("wantAll", false);
+  const wantParams = {
+    wantAchieveSuperRank:
+      wantAll || params.getBooleanValue("wantAchieveSuperRank", false),
+    wantMultipleLang:
+      wantAll || params.getBooleanValue("wantMultipleLang", false),
+    wantLongTimeAccount:
+      wantAll || params.getBooleanValue("wantLongTimeAccount", false),
+    wantAncientAccount:
+      wantAll || params.getBooleanValue("wantAncientAccount", false),
+    wantNewAccount: wantAll || params.getBooleanValue("wantNewAccount", false),
+    wantMultipleOrganizations:
+      wantAll || params.getBooleanValue("wantMultipleOrganizations", false),
+  };
 
   if (username === null) {
     const [base] = req.url.split("?");
@@ -81,6 +95,7 @@ export default async (req: Request) => {
       paddingHeight,
       noBackground,
       noFrame,
+      wantParams
     ).render(userInfo, theme),
     {
       headers: new Headers(

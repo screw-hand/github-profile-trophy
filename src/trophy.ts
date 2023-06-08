@@ -1,4 +1,5 @@
 import { getTrophyIcon, getNextRankBar } from "./icons.ts";
+import { TrophyList } from "./trophy_list.ts";
 import { CONSTANTS, RANK, abridgeScore, RANK_ORDER } from "./utils.ts";
 import { Theme } from "./theme.ts";
 
@@ -8,24 +9,6 @@ class RankCondition {
     readonly message: string,
     readonly requiredScore: number,
   ) {}
-}
-
-let wantAll = false;
-
-let wantAchieveSuperRank = false;
-let wantMultipleLang = false;
-let wantLongTimeAccount = false;
-let wantAncientAccount = false;
-let wantNewAccount = false;
-let wantMultipleOrganizations = false;
-
-if (wantAll) {
-  wantAchieveSuperRank = true;
-  wantMultipleLang = true;
-  wantLongTimeAccount = true;
-  wantAncientAccount = true;
-  wantNewAccount = true;
-  wantMultipleOrganizations = true;
 }
 
 export class Trophy {
@@ -126,7 +109,7 @@ export class MultipleLangTrophy extends Trophy{
       new RankCondition(
         RANK.SECRET,
         "Rainbow Lang User",
-        (wantMultipleLang) ? 0 : 10,
+        (TrophyList.wantParams.wantMultipleLang) ? 0 : 10,
       ),
     ];
     super(score, rankConditions);
@@ -157,7 +140,7 @@ export class AchieveSuperRankTrophy extends Trophy{
       new RankCondition(
         RANK.SECRET,
         "SSS Rank Hacker",
-        (wantAchieveSuperRank) ? 0 : 1,
+        (TrophyList.wantParams.wantAchieveSuperRank) ? 0 : 1,
       ),
     ];
     super(score, rankConditions);
@@ -173,7 +156,7 @@ export class NewAccountTrophy extends Trophy{
       new RankCondition(
         RANK.SECRET,
         "Everything started...",
-        (wantNewAccount) ? 0 : 1,
+        (TrophyList.wantParams.wantNewAccount) ? 0 : 1,
       ),
     ];
     super(score, rankConditions);
@@ -189,7 +172,7 @@ export class AncientAccountTrophy extends Trophy{
       new RankCondition(
         RANK.SECRET,
         "Ancient User",
-        (wantAncientAccount) ? 0 : 1,
+        (TrophyList.wantParams.wantAncientAccount) ? 0 : 1,
       ),
     ];
     super(score, rankConditions);
@@ -205,7 +188,7 @@ export class LongTimeAccountTrophy extends Trophy{
       new RankCondition(
         RANK.SECRET,
         "Village Elder",
-        (wantLongTimeAccount) ? 0 : 3,
+        (TrophyList.wantParams.wantLongTimeAccount) ? 0 : 3,
       ),
     ];
     super(score, rankConditions);
@@ -222,7 +205,7 @@ export class MultipleOrganizationsTrophy extends Trophy{
         RANK.SECRET,
         // or if this doesn't render well: "Factorum"
         "Jack of all Trades",
-        (wantMultipleOrganizations) ? 0 : 3,
+        (TrophyList.wantParams.wantMultipleOrganizations) ? 0 : 3,
       ),
     ];
     super(score, rankConditions);
