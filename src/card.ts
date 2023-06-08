@@ -43,7 +43,6 @@ export class Card {
       this.width = this.panelSize * this.maxColumn +
         this.marginWidth * (this.maxColumn - 1);
     }
-
     const row = this.getRow(trophyList);
     this.height = this.getHeight(row);
 
