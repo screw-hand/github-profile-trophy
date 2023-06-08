@@ -10,12 +10,23 @@ class RankCondition {
   ) {}
 }
 
-let wantAchieveSuperRank = true;
-let wantMultipleLang = true;
-let wantLongTimeAccount = true;
-let wantAncientAccount = true;
-let wantNewAccount = true;
-let wantMultipleOrganizations = true;
+let wantAll = false;
+
+let wantAchieveSuperRank = false;
+let wantMultipleLang = false;
+let wantLongTimeAccount = false;
+let wantAncientAccount = false;
+let wantNewAccount = false;
+let wantMultipleOrganizations = false;
+
+if (wantAll) {
+  wantAchieveSuperRank = true;
+  wantMultipleLang = true;
+  wantLongTimeAccount = true;
+  wantAncientAccount = true;
+  wantNewAccount = true;
+  wantMultipleOrganizations = true;
+}
 
 export class Trophy {
   rankCondition: RankCondition | null = null;
