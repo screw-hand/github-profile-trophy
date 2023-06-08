@@ -21,7 +21,7 @@ import { RANK_ORDER, RANK } from "./utils.ts";
 
 export class TrophyList {
   private trophies = new Array<Trophy>();
-  static wantParams = {};
+  static wantParams: { [key: string]: boolean } = {};
   constructor(userInfo: UserInfo) {
     // Base trophies
     this.trophies.push(
@@ -31,7 +31,7 @@ export class TrophyList {
       new TotalIssueTrophy(userInfo.totalIssues),
       new TotalPullRequestTrophy(userInfo.totalPullRequests),
       new TotalRepositoryTrophy(userInfo.totalRepositories),
-      new TotalReviewsTrophy(userInfo.totalReviews),
+      new TotalReviewsTrophy(userInfo.totalReviews)
     );
     // Secret trophies
     this.trophies.push(
@@ -42,7 +42,7 @@ export class TrophyList {
       new AncientAccountTrophy(userInfo.ancientAccount),
       new OGAccountTrophy(userInfo.ogAccount),
       new NewAccountTrophy(userInfo.newAccount),
-      new MultipleOrganizationsTrophy(userInfo.totalOrganizations),
+      new MultipleOrganizationsTrophy(userInfo.totalOrganizations)
     );
   }
   get length() {
@@ -52,14 +52,18 @@ export class TrophyList {
     return this.trophies;
   }
   private get isAllSRank() {
-      return this.trophies.every((trophy) => trophy.rank.slice(0, 1) == RANK.S) ? 1 : 0;
+    return this.trophies.every((trophy) => trophy.rank.slice(0, 1) == RANK.S)
+      ? 1
+      : 0;
   }
   private get haveSSSRank() {
-    return this.trophies.some((trophy) => trophy.rank.slice(0, 1) == RANK.S) ? 1 : 0;
+    return this.trophies.some((trophy) => trophy.rank.slice(0, 1) == RANK.S)
+      ? 1
+      : 0;
   }
   filterByHideen() {
-    this.trophies = this.trophies.filter((trophy) =>
-      !trophy.hidden || trophy.rank !== RANK.UNKNOWN
+    this.trophies = this.trophies.filter(
+      (trophy) => !trophy.hidden || trophy.rank !== RANK.UNKNOWN
     );
   }
   filterByTitles(titles: Array<string>) {
@@ -69,18 +73,20 @@ export class TrophyList {
   }
   filterByRanks(ranks: Array<string>) {
     if (ranks.filter((rank) => rank.includes("-")).length !== 0) {
-      this.trophies = this.trophies.filter((trophy) =>
-        !ranks.map(rank => rank.substring(1)).includes(trophy.rank)
-      )
-      return
+      this.trophies = this.trophies.filter(
+        (trophy) =>
+          !ranks.map((rank) => rank.substring(1)).includes(trophy.rank)
+      );
+      return;
     }
     this.trophies = this.trophies.filter((trophy) =>
       ranks.includes(trophy.rank)
     );
   }
   sortByRank() {
-    this.trophies = this.trophies.sort((a: Trophy, b: Trophy) =>
-      RANK_ORDER.indexOf(a.rank) - RANK_ORDER.indexOf(b.rank)
+    this.trophies = this.trophies.sort(
+      (a: Trophy, b: Trophy) =>
+        RANK_ORDER.indexOf(a.rank) - RANK_ORDER.indexOf(b.rank)
     );
   }
 }
