@@ -48,19 +48,31 @@ Secret Trophies require
 
 You'll have to deploy yourself, for [Vercel](/VercelDeployGuide.md) or [localhost](/LocalDeployGuide.md)
 
-If you want to configure which trophies you automatically get, configure these booleans in [src/trophy.ts at line 13](/src/trophy.ts#L13)
+Using the query string parameter of `want[XX]` allows you to get the specified secret trophy unconditionally.
 
+```
+https://github-profile-trophy.screw-hand.vercel.app/?username=screw-hand&rank=SECRET&wantMultipleOrganizations=true
+```
+
+`want[xx]` full list:
 ```ts
-let wantAchieveSuperRank = false;
-let wantMultipleLang = true;
-let wantLongTimeAccount = true;
-let wantAncientAccount = false;
-let wantNewAccount = false;
-let wantMultipleOrganizations = true;
+wantAchieveSuperRank=true
+wantMultipleLang=true
+wantLongTimeAccount=true
+wantAncientAccount=true
+wantNewAccount=true
+wantMultipleOrganizations=true
+```
+
+Specially, using wantALL allows you to use one parameter and get all secret trophies.
+
+```
+https://github-profile-trophy.screw-hand.vercel.app/?username=screw-hand&rank=SECRET&wanAll=true
 ```
 
 ## Change logs
 
+- `want[XX]` and `wantAll` query string to get secret trophy
 - show all trophies including secret and unreached (conditions remain the same)
 - renewing trophy "AchieveSuperRankTrophy" instead of "AllSuperRankTrophy"
 - condition of "AchieveSuperRankTrophy" from `every` to `at least one`
