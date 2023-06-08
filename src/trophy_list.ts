@@ -56,9 +56,6 @@ export class TrophyList {
   private get haveSSSRank() {
     return this.trophies.some((trophy) => trophy.rank.slice(0, 1) == RANK.S) ? 1 : 0;
   }
-  private get haveSSSRank() {
-    return this.trophies.some((trophy) => trophy.rank.slice(0, 1) == RANK.S) ? 1 : 0;
-  }
   filterByHideen() {
     this.trophies = this.trophies.filter((trophy) =>
       !trophy.hidden || trophy.rank !== RANK.UNKNOWN
