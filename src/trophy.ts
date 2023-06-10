@@ -1,5 +1,4 @@
 import { getTrophyIcon, getNextRankBar } from "./icons.ts";
-import { TrophyList } from "./trophy_list.ts";
 import { CONSTANTS, RANK, abridgeScore, RANK_ORDER } from "./utils.ts";
 import { Theme } from "./theme.ts";
 import { Want } from './want.ts'
