@@ -31,11 +31,11 @@
 Add the following code to your readme. When pasting the code into your profile's readme, change the `?username=` value to your GitHub's username.
 
 ```
-[![trophy](https://github-trophies.vercel.app/?username=lucthienphong1120)](https://github.com/lucthienphong1120/github-trophies)
+[![trophy](https://github-profile-trophy.screw-hand.vercel.app/?username=lucthienphong1120)](https://github.com/lucthienphong1120/github-trophies)
 ```
 
 <p align="center">
-  <img alig src="https://github-trophies.vercel.app/?username=lucthienphong1120&column=6&rank=SSS,SS,S,AAA,AA,A,B,C" />
+  <img alig src="https://github-profile-trophy.screw-hand.vercel.app/?username=lucthienphong1120&column=6&rank=SSS,SS,S,AAA,AA,A,B,C" />
 </p>
 
 ## Use theme
@@ -43,7 +43,7 @@ Add the following code to your readme. When pasting the code into your profile's
 Add optional parameter of the theme.
 
 ```
-[![trophy](https://github-trophies.vercel.app/?username=lucthienphong1120&theme=onedark)](https://github.com/lucthienphong1120/github-trophies)
+[![trophy](https://github-profile-trophy.screw-hand.vercel.app/?username=lucthienphong1120&theme=onedark)](https://github.com/lucthienphong1120/github-trophies)
 ```
 <p align="center">
   <img width="660" src="https://user-images.githubusercontent.com/6661165/92327052-d99b9e00-f091-11ea-9a24-c7ec86982370.png">
@@ -104,7 +104,7 @@ Therefore, if you come up with interesting conditions, I am waiting for contribu
 You can filter the display by specifying the titles of trophy.  
 
 ```
-https://github-trophies.vercel.app/?username=lucthienphong1120&title=Followers
+https://github-profile-trophy.screw-hand.vercel.app/?username=lucthienphong1120&title=Followers
 ```
 
 <p align="center">
@@ -114,7 +114,7 @@ https://github-trophies.vercel.app/?username=lucthienphong1120&title=Followers
 If you want to specify multiple titles.
 
 ```
-https://github-trophies.vercel.app/?username=lucthienphong1120&title=Stars,Followers
+https://github-profile-trophy.screw-hand.vercel.app/?username=lucthienphong1120&title=Stars,Followers
 ```
 
 ## Filter by ranks
@@ -123,7 +123,7 @@ You can filter the display by specifying the ranks.
 `Available values: SECRET SSS SS S AAA AA A B C`
 
 ```
-https://github-trophies.vercel.app/?username=lucthienphong1120&rank=S
+https://github-profile-trophy.screw-hand.vercel.app/?username=lucthienphong1120&rank=S
 ```
 <p align="center">
   <img width="110" src="https://user-images.githubusercontent.com/6661165/91642657-1cdd8780-ea68-11ea-994b-4568a55cd22a.png" />
@@ -132,7 +132,7 @@ https://github-trophies.vercel.app/?username=lucthienphong1120&rank=S
 If you want to specify multiple ranks.
 
 ```
-https://github-trophies.vercel.app/?username=lucthienphong1120&rank=S,AAA
+https://github-profile-trophy.screw-hand.vercel.app/?username=lucthienphong1120&rank=S,AAA
 ```
 
 ## Specify the maximum row & column size
@@ -145,17 +145,17 @@ Trophy will be hidden if it exceeds the range of both row and column.
 
 Restrict only row
 ```
-https://github-trophies.vercel.app/?username=lucthienphong1120&row=2
+https://github-profile-trophy.screw-hand.vercel.app/?username=lucthienphong1120&row=2
 ```
 
 Restrict only column
 ```
-https://github-trophies.vercel.app/?username=lucthienphong1120&column=2
+https://github-profile-trophy.screw-hand.vercel.app/?username=lucthienphong1120&column=2
 ```
 
 Restrict row & column
 ```
-https://github-trophies.vercel.app/?username=lucthienphong1120&row=2&column=3
+https://github-profile-trophy.screw-hand.vercel.app/?username=lucthienphong1120&row=2&column=3
 ```
 
 <p align="center">
@@ -195,7 +195,7 @@ Available themes.
 ### flat
 
 ```
-https://github-trophies.vercel.app/?username=lucthienphong1120&theme=flat
+https://github-profile-trophy.screw-hand.vercel.app/?username=lucthienphong1120&theme=flat
 ```
 <p align="center">
   <img width="660" src="https://user-images.githubusercontent.com/6661165/92325601-039b9300-f087-11ea-983a-fce8133549ee.png">
@@ -204,7 +204,7 @@ https://github-trophies.vercel.app/?username=lucthienphong1120&theme=flat
 ### onedark
 
 ```
-https://github-trophies.vercel.app/?username=lucthienphong1120&theme=onedark
+https://github-profile-trophy.screw-hand.vercel.app/?username=lucthienphong1120&theme=onedark
 ```
 
 <p align="center">
@@ -214,7 +214,7 @@ https://github-trophies.vercel.app/?username=lucthienphong1120&theme=onedark
 ### gruvbox
 
 ```
-https://github-trophies.vercel.app/?username=lucthienphong1120&theme=gruvbox
+https://github-profile-trophy.screw-hand.vercel.app/?username=lucthienphong1120&theme=gruvbox
 ```
 
 <p align="center">
@@ -224,7 +224,7 @@ https://github-trophies.vercel.app/?username=lucthienphong1120&theme=gruvbox
 ### dracula
 
 ```
-https://github-trophies.vercel.app/?username=lucthienphong1120&theme=dracula
+https://github-profile-trophy.screw-hand.vercel.app/?username=lucthienphong1120&theme=dracula
 ```
 
 <p align="center">
@@ -234,7 +234,7 @@ https://github-trophies.vercel.app/?username=lucthienphong1120&theme=dracula
 ### monokai
 
 ```
-https://github-trophies.vercel.app/?username=lucthienphong1120&theme=monokai
+https://github-profile-trophy.screw-hand.vercel.app/?username=lucthienphong1120&theme=monokai
 ```
 
 <p align="center">
@@ -244,7 +244,7 @@ https://github-trophies.vercel.app/?username=lucthienphong1120&theme=monokai
 ### chalk
 
 ```
-https://github-trophies.vercel.app/?username=lucthienphong1120&theme=chalk
+https://github-profile-trophy.screw-hand.vercel.app/?username=lucthienphong1120&theme=chalk
 ```
 
 <p align="center">
@@ -254,7 +254,7 @@ https://github-trophies.vercel.app/?username=lucthienphong1120&theme=chalk
 ### nord
 
 ```
-https://github-trophies.vercel.app/?username=lucthienphong1120&theme=nord
+https://github-profile-trophy.screw-hand.vercel.app/?username=lucthienphong1120&theme=nord
 ```
 
 <p align="center">
@@ -265,7 +265,7 @@ https://github-trophies.vercel.app/?username=lucthienphong1120&theme=nord
 ### alduin
 
 ```
-https://github-trophies.vercel.app/?username=lucthienphong1120&theme=alduin
+https://github-profile-trophy.screw-hand.vercel.app/?username=lucthienphong1120&theme=alduin
 ```
 
 <p align="center">
@@ -275,7 +275,7 @@ https://github-trophies.vercel.app/?username=lucthienphong1120&theme=alduin
 ### darkhub
 
 ```
-https://github-trophies.vercel.app/?username=lucthienphong1120&theme=darkhub
+https://github-profile-trophy.screw-hand.vercel.app/?username=lucthienphong1120&theme=darkhub
 ```
 
 <p align="center">
@@ -285,7 +285,7 @@ https://github-trophies.vercel.app/?username=lucthienphong1120&theme=darkhub
 ### juicyfresh
 
 ```
-https://github-trophies.vercel.app/?username=lucthienphong1120&theme=juicyfresh
+https://github-profile-trophy.screw-hand.vercel.app/?username=lucthienphong1120&theme=juicyfresh
 ```
 
 <p align="center">
@@ -295,7 +295,7 @@ https://github-trophies.vercel.app/?username=lucthienphong1120&theme=juicyfresh
 ### buddhism
 
 ```
-https://github-trophies.vercel.app/?username=lucthienphong1120&theme=buddhism
+https://github-profile-trophy.screw-hand.vercel.app/?username=lucthienphong1120&theme=buddhism
 ```
 
 <p align="center">
@@ -305,7 +305,7 @@ https://github-trophies.vercel.app/?username=lucthienphong1120&theme=buddhism
 ### oldie
 
 ```
-https://github-trophies.vercel.app/?username=lucthienphong1120&theme=oldie
+https://github-profile-trophy.screw-hand.vercel.app/?username=lucthienphong1120&theme=oldie
 ```
 
 <p align="center">
@@ -315,7 +315,7 @@ https://github-trophies.vercel.app/?username=lucthienphong1120&theme=oldie
 ### radical
 
 ```
-https://github-trophies.vercel.app/?username=lucthienphong1120&theme=radical
+https://github-profile-trophy.screw-hand.vercel.app/?username=lucthienphong1120&theme=radical
 ```
 
 <p align="center">
@@ -325,7 +325,7 @@ https://github-trophies.vercel.app/?username=lucthienphong1120&theme=radical
 ### onestar
 
 ```
-https://github-trophies.vercel.app/?username=lucthienphong1120&theme=onestar
+https://github-profile-trophy.screw-hand.vercel.app/?username=lucthienphong1120&theme=onestar
 ```
 
 <p align="center">
@@ -335,7 +335,7 @@ https://github-trophies.vercel.app/?username=lucthienphong1120&theme=onestar
 ### discord
 
 ```
-https://github-trophies.vercel.app/?username=lucthienphong1120&theme=discord
+https://github-profile-trophy.screw-hand.vercel.app/?username=lucthienphong1120&theme=discord
 ```
 
 <p align="center">
@@ -345,7 +345,7 @@ https://github-trophies.vercel.app/?username=lucthienphong1120&theme=discord
 ### algolia
 
 ```
-https://github-trophies.vercel.app/?username=lucthienphong1120&theme=algolia
+https://github-profile-trophy.screw-hand.vercel.app/?username=lucthienphong1120&theme=algolia
 ```
 
 <p align="center">
@@ -355,7 +355,7 @@ https://github-trophies.vercel.app/?username=lucthienphong1120&theme=algolia
 ### gitdimmed
 
 ```
-https://github-trophies.vercel.app/?username=lucthienphong1120&theme=gitdimme
+https://github-profile-trophy.screw-hand.vercel.app/?username=lucthienphong1120&theme=gitdimme
 ```
 
 <p align="center">
@@ -365,7 +365,7 @@ https://github-trophies.vercel.app/?username=lucthienphong1120&theme=gitdimme
 ### tokyonight
 
 ```
-https://github-trophies.vercel.app/?username=lucthienphong1120&theme=tokyonight
+https://github-profile-trophy.screw-hand.vercel.app/?username=lucthienphong1120&theme=tokyonight
 ```
 
 <p align="center">
@@ -375,7 +375,7 @@ https://github-trophies.vercel.app/?username=lucthienphong1120&theme=tokyonight
 ### matrix
 
 ```
-https://github-trophies.vercel.app/?username=lucthienphong1120&theme=matrix
+https://github-profile-trophy.screw-hand.vercel.app/?username=lucthienphong1120&theme=matrix
 ```
 
 <p align="center">
@@ -385,7 +385,7 @@ https://github-trophies.vercel.app/?username=lucthienphong1120&theme=matrix
 ### apprentice
 
 ```
-https://github-trophies.vercel.app/?username=lucthienphong1120&theme=apprentice
+https://github-profile-trophy.screw-hand.vercel.app/?username=lucthienphong1120&theme=apprentice
 ```
 
 <p align="center">
@@ -395,7 +395,7 @@ https://github-trophies.vercel.app/?username=lucthienphong1120&theme=apprentice
 ### dark_dimmed
 
 ```
-https://github-trophies.vercel.app/?username=lucthienphong1120&theme=dark_dimmed
+https://github-profile-trophy.screw-hand.vercel.app/?username=lucthienphong1120&theme=dark_dimmed
 ```
 
 <p align="center">
@@ -405,7 +405,7 @@ https://github-trophies.vercel.app/?username=lucthienphong1120&theme=dark_dimmed
 ### dark_lover
 
 ```
-https://github-trophies.vercel.app/?username=lucthienphong1120&theme=dark_lover
+https://github-profile-trophy.screw-hand.vercel.app/?username=lucthienphong1120&theme=dark_lover
 ```
 
 <p align="center">
@@ -419,7 +419,7 @@ You can put a margin in the width between trophies.
 `Default: margin-w=0`
 
 ```
-https://github-trophies.vercel.app/?username=lucthienphong1120&margin-w=15
+https://github-profile-trophy.screw-hand.vercel.app/?username=lucthienphong1120&margin-w=15
 ```
 
 <p align="center">
@@ -433,13 +433,13 @@ You can put a margin in the height between trophies.
 `Default: margin-h=0`
 
 ```
-https://github-trophies.vercel.app/?username=lucthienphong1120&margin-h=15
+https://github-profile-trophy.screw-hand.vercel.app/?username=lucthienphong1120&margin-h=15
 ```
 
 ## Example layout
 
 ```
-https://github-trophies.vercel.app/?username=lucthienphong1120&column=3&margin-w=15&margin-h=15
+https://github-profile-trophy.screw-hand.vercel.app/?username=lucthienphong1120&column=3&margin-w=15&margin-h=15
 ```
 
 <p align="center">
@@ -453,7 +453,7 @@ You can turn the background transparent.
 `Default: no-bg=false`
 
 ```
-https://github-trophies.vercel.app/?username=lucthienphong1120&no-bg=true
+https://github-profile-trophy.screw-hand.vercel.app/?username=lucthienphong1120&no-bg=true
 ```
 
 <p align="center">
@@ -469,7 +469,7 @@ You can hide the frames around the trophies.
 `Default: no-frame=false`
 
 ```
-https://github-trophies.vercel.app/?username=lucthienphong1120&no-frame=true
+https://github-profile-trophy.screw-hand.vercel.app/?username=lucthienphong1120&no-frame=true
 ```
 
 <p align="center">

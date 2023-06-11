@@ -13,10 +13,10 @@ Moreover, in this file some modifications and improvements are added! [Change lo
 ## Quick start
 
 ```
-![](https://github-trophies.vercel.app/?username=yourusername)
+![](https://github-profile-trophy.screw-hand.vercel.app/?username=yourusername)
 ```
 
-[![](https://github-trophies.vercel.app/?username=lucthienphong1120)](https://github-trophies.vercel.app/?username=lucthienphong1120)
+[![](https://github-profile-trophy.screw-hand.vercel.app/?username=lucthienphong1120)](https://github-profile-trophy.screw-hand.vercel.app/?username=lucthienphong1120)
 
 About fully usage, you can check [How to use](/USAGE.md).
 
