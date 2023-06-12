@@ -109,7 +109,7 @@ export class MultipleLangTrophy extends Trophy{
       new RankCondition(
         RANK.SECRET,
         "Rainbow Lang User",
-        (Want.MultipleLang) ? 0 : 10,
+        (Want.MultipleLang) ? 0 : 5,
       ),
     ];
     super(score, rankConditions);
