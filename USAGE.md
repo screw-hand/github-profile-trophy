@@ -120,7 +120,7 @@ https://github-profile-trophy.screw-hand.vercel.app/?username=lucthienphong1120&
 ## Filter by ranks
 
 You can filter the display by specifying the ranks.  
-`Available values: SECRET SSS SS S AAA AA A B C`
+`Available values: SECRET SSS SS S AAA AA A B C UNKOWN`
 
 ```
 https://github-profile-trophy.screw-hand.vercel.app/?username=lucthienphong1120&rank=S

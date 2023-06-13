@@ -72,6 +72,7 @@ https://github-profile-trophy.screw-hand.vercel.app/?username=screw-hand&rank=SE
 
 ## Change logs
 
+- Filter by ranks support UNKOWN
 - `want[XX]` and `wantAll` query string to get secret trophy
 - show all trophies including secret and unreached (conditions remain the same)
 - renewing trophy "AchieveSuperRankTrophy" instead of "AllSuperRankTrophy"
