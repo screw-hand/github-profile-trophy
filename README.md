@@ -67,7 +67,7 @@ wantMultipleOrganizations=true
 Specially, using wantALL allows you to use one parameter and get all secret trophies.
 
 ```
-https://github-profile-trophy.screw-hand.vercel.app/?username=screw-hand&rank=SECRET&wanAll=true
+https://github-profile-trophy.screw-hand.vercel.app/?username=screw-hand&rank=SECRET&wantAll=true
 ```
 
 ## Change logs
