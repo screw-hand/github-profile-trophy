@@ -10,6 +10,21 @@ It alse reduce their difficulty so you can easily set a nicer profile! [Change l
 
 Moreover, in this file some modifications and improvements are added! [Change logs](#change-logs)
 
+## Init Project
+
+This repo is based on the fork [ryo-ma/github-profile-trophy](https://github.com/ryo-ma/github-profile-trophy)
+merged with [ucthienphong1120/github-trophies](https://github.com/lucthienphong1120/github-trophies).
+
+```shel
+git remote add upstream https://github.com/ryo-ma/github-profile-trophy.git
+git fetch upstream -p
+git remote add super-upstream https://github.com/lucthienphong1120/github-trophies.git
+git fetch super-upstream -p
+
+git merge upstream/master
+git pull super-upstream main --allow-unrelated-histories
+```
+
 ## Quick start
 
 ```
@@ -123,12 +138,3 @@ If you choose to use my deployment, it would be really appreciated if you gave m
 
 # init project
 
-```shel
-git remote add upstream git@github.com:ryo-ma/github-profile-trophy.git
-git fetch upstream -p
-git remote add super-upstream git@github.com:lucthienphong1120/github-trophies.git
-git fetch super-upstream -p
-
-git merge upstream/master
-git pull super-upstream main --allow-unrelated-histories
-```
