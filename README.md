@@ -136,5 +136,3 @@ If you choose to use my deployment, it would be really appreciated if you gave m
 
 > [Github Profile Maker](https://github.com/lucthienphong1120/github-profile-maker)
 
-# init project
-
