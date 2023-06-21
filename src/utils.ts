@@ -62,7 +62,10 @@ export const CONSTANTS = {
   DEFAULT_MARGIN_H: 0,
   DEFAULT_NO_BACKGROUND: false,
   DEFAULT_NO_FRAME: false,
+<<<<<<< HEAD
   DEFAULT_GITHUB_API: "https://api.github.com/graphql",
+=======
+>>>>>>> 8ed4ccda2839a520a250184eba4bf67c7626cb87
 };
 
 export enum RANK {

@@ -1,34 +1,27 @@
-<<<<<<< HEAD
 <p align="center">
   <img width="140" src="https://user-images.githubusercontent.com/6661165/91657958-61b4fd00-eb00-11ea-9def-dc7ef5367e34.png" />  
-  <h2 align="center">GitHub Profile Trophy</h2>
+  <h2 align="center">GitHub Trophies</h2>
   <p align="center">🏆 Add dynamically generated GitHub Stat Trophies on your readme</p>
 </p>
 <p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy/issues">
-    <img src="https://img.shields.io/github/issues/ryo-ma/github-profile-trophy"/> 
+  <a href="https://github.com/lucthienphong1120/github-trophies/issues">
+    <img src="https://img.shields.io/github/issues/lucthienphong1120/github-trophies"/> 
   </a>
-  <a href="https://github.com/ryo-ma/github-profile-trophy/network/members">
-    <img src="https://img.shields.io/github/forks/ryo-ma/github-profile-trophy"/> 
+  <a href="https://github.com/lucthienphong1120/github-trophies/network/members">
+    <img src="https://img.shields.io/github/forks/lucthienphong1120/github-trophies"/> 
   </a>  
-  <a href="https://github.com/ryo-ma/github-profile-trophy/stargazers">
-    <img src="https://img.shields.io/github/stars/ryo-ma/github-profile-trophy"/> 
+  <a href="https://github.com/lucthienphong1120/github-trophies/stargazers">
+    <img src="https://img.shields.io/github/stars/lucthienphong1120/github-trophies"/> 
   </a>
-    <a href="https://github.com/ryo-ma/github-profile-trophy/LICENSE">
-    <img src="https://img.shields.io/github/license/ryo-ma/github-profile-trophy"/> 
-  </a>
-</p>
-<p align="center">
-  </a>
-    <a href="https://twitter.com/intent/tweet?text=Add%20dynamically%20generated%20GitHub%20Trophy%20on%20your%20readme%0D%0A&url=https%3A%2F%2Fgithub.com%2Fryo-ma%2Fgithub-profile-trophy">
-    <img src="https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Fryo-ma%2Fgithub-profile-trophy"/> 
+    <a href="https://github.com/lucthienphong1120/github-trophies/LICENSE">
+    <img src="https://img.shields.io/github/license/lucthienphong1120/github-trophies"/> 
   </a>
 </p>
 <p align="center">
   You can use this service for free. I'm looking for sponsors to help us keep up with this service❤️
 </p>
 <p align="center">
-  <a href="https://github.com/sponsors/ryo-ma">
+  <a href="https://github.com/sponsors/lucthienphong1120">
     <img src="https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=ff69b4"/> 
   </a>
 </p>
@@ -38,11 +31,11 @@
 Add the following code to your readme. When pasting the code into your profile's readme, change the `?username=` value to your GitHub's username.
 
 ```
-[![trophy](https://github-profile-trophy.vercel.app/?username=ryo-ma)](https://github.com/ryo-ma/github-profile-trophy)
+[![trophy](https://github-trophies.vercel.app/?username=lucthienphong1120)](https://github.com/lucthienphong1120/github-trophies)
 ```
 
 <p align="center">
-  <img alig src="https://github-profile-trophy.vercel.app/?username=ryo-ma&column=7&rank=SSS,SS,S,AAA,AA,A,B,C" />
+  <img alig src="https://github-trophies.vercel.app/?username=lucthienphong1120&column=6&rank=SSS,SS,S,AAA,AA,A,B,C" />
 </p>
 
 ## Use theme
@@ -50,7 +43,7 @@ Add the following code to your readme. When pasting the code into your profile's
 Add optional parameter of the theme.
 
 ```
-[![trophy](https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
+[![trophy](https://github-trophies.vercel.app/?username=lucthienphong1120&theme=onedark)](https://github.com/lucthienphong1120/github-trophies)
 ```
 <p align="center">
   <img width="660" src="https://user-images.githubusercontent.com/6661165/92327052-d99b9e00-f091-11ea-9a24-c7ec86982370.png">
@@ -66,7 +59,7 @@ Ranks are `SSS` `SS` `S` `AAA` `AA` `A` `B` `C` `UNKNOWN` `SECRET`.
 | ---- | ---- |
 |  SSS, SS, S  | You are at a hard to reach rank. You can brag.  |
 |  AAA, AA, A  | You will reach this rank if you do your best. Let's aim here first.  |
-|  B, C  | You are currently making good progress. Let's aim a bit higher.  |
+|  B, C  | You are currently making good process. Let's aim a bit higher.  |
 | UNKNOWN | You have not taken action yet. Let's act first. |
 | SECRET | This rank is very rare. The trophy will not be displayed until certain conditions are met. |
 
@@ -77,7 +70,8 @@ The acquisition condition is secret, but you can know the condition by reading t
   <img width="110" src="https://user-images.githubusercontent.com/6661165/91643641-28cd4780-ea70-11ea-94a9-a51885252700.png" />
 </p>
 
-There are only a few secret trophies. Therefore, if you come up with interesting conditions, I will consider adding a trophy. I am waiting for contributions.
+There are still few secret trophies.  
+Therefore, if you come up with interesting conditions, I am waiting for contributions.
 
 # About Display details
 
@@ -110,7 +104,7 @@ There are only a few secret trophies. Therefore, if you come up with interesting
 You can filter the display by specifying the titles of trophy.  
 
 ```
-https://github-profile-trophy.vercel.app/?username=ryo-ma&title=Followers
+https://github-trophies.vercel.app/?username=lucthienphong1120&title=Followers
 ```
 
 <p align="center">
@@ -120,7 +114,7 @@ https://github-profile-trophy.vercel.app/?username=ryo-ma&title=Followers
 If you want to specify multiple titles.
 
 ```
-https://github-profile-trophy.vercel.app/?username=ryo-ma&title=Stars,Followers
+https://github-trophies.vercel.app/?username=lucthienphong1120&title=Stars,Followers
 ```
 
 ## Filter by ranks
@@ -129,7 +123,7 @@ You can filter the display by specifying the ranks.
 `Available values: SECRET SSS SS S AAA AA A B C`
 
 ```
-https://github-profile-trophy.vercel.app/?username=ryo-ma&rank=S
+https://github-trophies.vercel.app/?username=lucthienphong1120&rank=S
 ```
 <p align="center">
   <img width="110" src="https://user-images.githubusercontent.com/6661165/91642657-1cdd8780-ea68-11ea-994b-4568a55cd22a.png" />
@@ -138,15 +132,8 @@ https://github-profile-trophy.vercel.app/?username=ryo-ma&rank=S
 If you want to specify multiple ranks.
 
 ```
-https://github-profile-trophy.vercel.app/?username=ryo-ma&rank=S,AAA
+https://github-trophies.vercel.app/?username=lucthienphong1120&rank=S,AAA
 ```
-
-You can also exclude ranks.
-
-```
-https://github-profile-trophy.vercel.app/?username=ryo-ma&rank=-C,-B
-```
-
 
 ## Specify the maximum row & column size
 
@@ -158,29 +145,22 @@ Trophy will be hidden if it exceeds the range of both row and column.
 
 Restrict only row
 ```
-https://github-profile-trophy.vercel.app/?username=ryo-ma&row=2
+https://github-trophies.vercel.app/?username=lucthienphong1120&row=2
 ```
 
 Restrict only column
 ```
-https://github-profile-trophy.vercel.app/?username=ryo-ma&column=2
+https://github-trophies.vercel.app/?username=lucthienphong1120&column=2
 ```
 
 Restrict row & column
 ```
-https://github-profile-trophy.vercel.app/?username=ryo-ma&row=2&column=3
+https://github-trophies.vercel.app/?username=lucthienphong1120&row=2&column=3
 ```
 
 <p align="center">
   <img width="330" src="https://user-images.githubusercontent.com/6661165/91659474-c07f7400-eb0a-11ea-84f2-eb6b42547829.png">
 </p>
-
-Adaptive column
-```
-https://github-profile-trophy.vercel.app/?username=ryo-ma&column=-1
-```
-
-You can set `columns` to `-1` to adapt the width to the number of trophies, the parameter `row` will be ignored.
 
 ## Apply theme
 
@@ -215,7 +195,7 @@ Available themes.
 ### flat
 
 ```
-https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=flat
+https://github-trophies.vercel.app/?username=lucthienphong1120&theme=flat
 ```
 <p align="center">
   <img width="660" src="https://user-images.githubusercontent.com/6661165/92325601-039b9300-f087-11ea-983a-fce8133549ee.png">
@@ -224,7 +204,7 @@ https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=flat
 ### onedark
 
 ```
-https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=onedark
+https://github-trophies.vercel.app/?username=lucthienphong1120&theme=onedark
 ```
 
 <p align="center">
@@ -234,7 +214,7 @@ https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=onedark
 ### gruvbox
 
 ```
-https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=gruvbox
+https://github-trophies.vercel.app/?username=lucthienphong1120&theme=gruvbox
 ```
 
 <p align="center">
@@ -244,7 +224,7 @@ https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=gruvbox
 ### dracula
 
 ```
-https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=dracula
+https://github-trophies.vercel.app/?username=lucthienphong1120&theme=dracula
 ```
 
 <p align="center">
@@ -254,7 +234,7 @@ https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=dracula
 ### monokai
 
 ```
-https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=monokai
+https://github-trophies.vercel.app/?username=lucthienphong1120&theme=monokai
 ```
 
 <p align="center">
@@ -264,7 +244,7 @@ https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=monokai
 ### chalk
 
 ```
-https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=chalk
+https://github-trophies.vercel.app/?username=lucthienphong1120&theme=chalk
 ```
 
 <p align="center">
@@ -274,7 +254,7 @@ https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=chalk
 ### nord
 
 ```
-https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=nord
+https://github-trophies.vercel.app/?username=lucthienphong1120&theme=nord
 ```
 
 <p align="center">
@@ -285,7 +265,7 @@ https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=nord
 ### alduin
 
 ```
-https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=alduin
+https://github-trophies.vercel.app/?username=lucthienphong1120&theme=alduin
 ```
 
 <p align="center">
@@ -295,7 +275,7 @@ https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=alduin
 ### darkhub
 
 ```
-https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=darkhub
+https://github-trophies.vercel.app/?username=lucthienphong1120&theme=darkhub
 ```
 
 <p align="center">
@@ -305,7 +285,7 @@ https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=darkhub
 ### juicyfresh
 
 ```
-https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=juicyfresh
+https://github-trophies.vercel.app/?username=lucthienphong1120&theme=juicyfresh
 ```
 
 <p align="center">
@@ -315,7 +295,7 @@ https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=juicyfresh
 ### buddhism
 
 ```
-https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=buddhism
+https://github-trophies.vercel.app/?username=lucthienphong1120&theme=buddhism
 ```
 
 <p align="center">
@@ -325,7 +305,7 @@ https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=buddhism
 ### oldie
 
 ```
-https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=oldie
+https://github-trophies.vercel.app/?username=lucthienphong1120&theme=oldie
 ```
 
 <p align="center">
@@ -335,7 +315,7 @@ https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=oldie
 ### radical
 
 ```
-https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=radical
+https://github-trophies.vercel.app/?username=lucthienphong1120&theme=radical
 ```
 
 <p align="center">
@@ -345,7 +325,7 @@ https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=radical
 ### onestar
 
 ```
-https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=onestar
+https://github-trophies.vercel.app/?username=lucthienphong1120&theme=onestar
 ```
 
 <p align="center">
@@ -355,7 +335,7 @@ https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=onestar
 ### discord
 
 ```
-https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=discord
+https://github-trophies.vercel.app/?username=lucthienphong1120&theme=discord
 ```
 
 <p align="center">
@@ -365,7 +345,7 @@ https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=discord
 ### algolia
 
 ```
-https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=algolia
+https://github-trophies.vercel.app/?username=lucthienphong1120&theme=algolia
 ```
 
 <p align="center">
@@ -375,7 +355,7 @@ https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=algolia
 ### gitdimmed
 
 ```
-https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=gitdimmed
+https://github-trophies.vercel.app/?username=lucthienphong1120&theme=gitdimme
 ```
 
 <p align="center">
@@ -385,7 +365,7 @@ https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=gitdimmed
 ### tokyonight
 
 ```
-https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=tokyonight
+https://github-trophies.vercel.app/?username=lucthienphong1120&theme=tokyonight
 ```
 
 <p align="center">
@@ -395,7 +375,7 @@ https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=tokyonight
 ### matrix
 
 ```
-https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=matrix
+https://github-trophies.vercel.app/?username=lucthienphong1120&theme=matrix
 ```
 
 <p align="center">
@@ -405,7 +385,7 @@ https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=matrix
 ### apprentice
 
 ```
-https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=apprentice
+https://github-trophies.vercel.app/?username=lucthienphong1120&theme=apprentice
 ```
 
 <p align="center">
@@ -415,7 +395,7 @@ https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=apprentice
 ### dark_dimmed
 
 ```
-https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=dark_dimmed
+https://github-trophies.vercel.app/?username=lucthienphong1120&theme=dark_dimmed
 ```
 
 <p align="center">
@@ -425,7 +405,7 @@ https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=dark_dimmed
 ### dark_lover
 
 ```
-https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=dark_lover
+https://github-trophies.vercel.app/?username=lucthienphong1120&theme=dark_lover
 ```
 
 <p align="center">
@@ -439,7 +419,7 @@ You can put a margin in the width between trophies.
 `Default: margin-w=0`
 
 ```
-https://github-profile-trophy.vercel.app/?username=ryo-ma&margin-w=15
+https://github-trophies.vercel.app/?username=lucthienphong1120&margin-w=15
 ```
 
 <p align="center">
@@ -453,13 +433,13 @@ You can put a margin in the height between trophies.
 `Default: margin-h=0`
 
 ```
-https://github-profile-trophy.vercel.app/?username=ryo-ma&margin-h=15
+https://github-trophies.vercel.app/?username=lucthienphong1120&margin-h=15
 ```
 
 ## Example layout
 
 ```
-https://github-profile-trophy.vercel.app/?username=ryo-ma&column=3&margin-w=15&margin-h=15
+https://github-trophies.vercel.app/?username=lucthienphong1120&column=3&margin-w=15&margin-h=15
 ```
 
 <p align="center">
@@ -473,7 +453,7 @@ You can turn the background transparent.
 `Default: no-bg=false`
 
 ```
-https://github-profile-trophy.vercel.app/?username=ryo-ma&no-bg=true
+https://github-trophies.vercel.app/?username=lucthienphong1120&no-bg=true
 ```
 
 <p align="center">
@@ -489,124 +469,9 @@ You can hide the frames around the trophies.
 `Default: no-frame=false`
 
 ```
-https://github-profile-trophy.vercel.app/?username=ryo-ma&no-frame=true
+https://github-trophies.vercel.app/?username=lucthienphong1120&no-frame=true
 ```
 
 <p align="center">
   <img width=660 src="https://user-images.githubusercontent.com/6661165/104810887-1d21c800-583b-11eb-8f0d-785c1640dc5d.png">
 </p>
-
-
-# Contribution Guide
-Check [CONTRIBUTING.md](./CONTRIBUTING.md) for more details.
-=======
-# Introduction
-
-<p align="center"><img src="logo.png"><p>
-
-> Do you know a version of [Github Profile Trophy (ryo-ma)](https://github.com/ryo-ma/github-profile-trophy)
-
-So, this version will allows you to show all secret trophies instead of hidden it. [Rank Systems](#rank-systems)
-
-It alse reduce their difficulty so you can easily set a nicer profile! [Change logs](#change-logs)
-
-Moreover, in this file some modifications and improvements are added! [Change logs](#change-logs)
-
-## Quick start
-
-```
-![](https://github-trophies.vercel.app/?username=yourusername)
-```
-
-[![](https://github-trophies.vercel.app/?username=lucthienphong1120)](https://github-trophies.vercel.app/?username=lucthienphong1120)
-
-About fully usage, you can check [How to use](/USAGE.md).
-
-## Rank Systems
-
-Base Trophies require
-
-| Name of trophy | C | B | A | AA | AAA | S | SS | SSS | Difficult |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| TotalStarTrophy | 1 | 10 | 20 | 50 | 100 | 250 | 500 | 1200 | Normal |
-| TotalCommitTrophy | 1 | 10 | 100 | 200 | 500 | 700 | 1000 | 2000 | Normal |
-| TotalFollowerTrophy | 1 | 10 | 20 | 50 | 100 | 200 | 500 | 1000 | Very Hard |
-| TotalIssueTrophy | 1 | 5 | 10 | 20 | 50 | 100 | 200 | 500 | Hard |
-| TotalPullRequestTrophy | 1 | 5 | 10 | 20 | 50 | 100 | 200 | 500 | Hard |
-| TotalRepositoryTrophy | 1 | 10 | 20 | 30 | 40 | 50 | 70 | 100 | Easy |
-
-Secret Trophies require 
-
-| Name of trophy | Required to active |
-| --- | --- |
-| MultipleLangTrophy | at least 5 languages |
-| AchieveSuperRankTrophy | have a SSS rank |
-| NewAccountTrophy | signed in after 2020 |
-| AncientAccountTrophy | signed in before 2010 |
-| LongTimeAccountTrophy | more than 3 years |
-| MultipleOrganizationsTrophy | joined 3 organizations |
-
-## Self-modify
-
-You'll have to deploy yourself, for [Vercel](/VercelDeployGuide.md) or [localhost](/LocalDeployGuide.md)
-
-If you want to configure which trophies you automatically get, configure these booleans in [src/trophy.ts at line 13](/src/trophy.ts#L13)
-
-```ts
-let wantAchieveSuperRank = false;
-let wantMultipleLang = true;
-let wantLongTimeAccount = true;
-let wantAncientAccount = false;
-let wantNewAccount = false;
-let wantMultipleOrganizations = true;
-```
-
-## Change logs
-
-- show all trophies including secret and unreached (conditions remain the same)
-- renewing trophy "AchieveSuperRankTrophy" instead of "AllSuperRankTrophy"
-- condition of "AchieveSuperRankTrophy" from `every` to `at least one`
-- renewing trophy "NewAccountTrophy" instead of "Joined2020Trophy"
-- condition of "NewAccountTrophy" from `==2020` to `>=2020`
-- unit system of "LongTimeAccountTrophy" from `pt` to `year(s)`
-- condition of "LongTimeAccountTrophy" from `10years` to `3years`
-- Open the "wantAllSuperRank" and "wantMultipleLang" trophies by default (conditions is 0)
-- conditions of "MultipleOrganizations" from `3` to `1` (open by default)
-- change the distance between conditions and reduce the difficulty of "TotalStarTrophy"
-  - A Rank from `30` to `25`
-  - S Rank from `200` to `250`
-  - SS Rank from `700` to `500`
-  - SSS Rank from `2000` to `1200`
-- change the distance between conditions and reduce the difficulty of "TotalCommitTrophy"
-  - S Rank from `1000` to `700`
-  - SS Rank from `2000` to `1000`
-  - SSS Rank from `4000` to `2000`
-- change condition of "TotalFollowerTrophy"
-  - SS Rank from `400` to `500`
-- change the distance between conditions and reduce the difficulty of "TotalIssueTrophy"
-  - B Rank from `10` to `5`
-  - A Rank from `20` to `10`
-  - AA Rank from `50` to `20`
-  - AAA Rank from `100` to `50`
-  - S Rank from `200` to `100`
-  - SS Rank from `500` to `200`
-  - SSS Rank from `1000` to `500`
-- change the distance between conditions and reduce the difficulty of "TotalPullRequestTrophy"
-  - B Rank from `10` to `5`
-  - A Rank from `20` to `10`
-  - AA Rank from `50` to `20`
-  - AAA Rank from `100` to `50`
-  - S Rank from `200` to `100`
-  - SS Rank from `500` to `200`
-  - SSS Rank from `1000` to `500`
-- change the distance between conditions and reduce the difficulty of "TotalRepositoryTrophy"
-  - AAA Rank from `50` to `40`
-  - S Rank from `80` to `50`
-  - SS Rank from `90` to `70`
-
-If you choose to use my deployment, it would be really appreciated if you gave me a star :star:
-
-## See also
-
-> [Github Profile Maker](https://github.com/lucthienphong1120/github-profile-maker)
->>>>>>> 8ed4ccda2839a520a250184eba4bf67c7626cb87

@@ -31,7 +31,10 @@ export type GitHubUserActivity = {
   contributionsCollection: {
     totalCommitContributions: number;
     restrictedContributionsCount: number;
+<<<<<<< HEAD
     totalPullRequestReviewContributions: number;
+=======
+>>>>>>> 8ed4ccda2839a520a250184eba4bf67c7626cb87
   };
   organizations: {
     totalCount: number;
@@ -46,14 +49,21 @@ export class UserInfo {
   public readonly totalIssues: number;
   public readonly totalOrganizations: number;
   public readonly totalPullRequests: number;
+<<<<<<< HEAD
   public readonly totalReviews: number;
+=======
+>>>>>>> 8ed4ccda2839a520a250184eba4bf67c7626cb87
   public readonly totalStargazers: number;
   public readonly totalRepositories: number;
   public readonly languageCount: number;
   public readonly durationYear: number;
   public readonly ancientAccount: number;
+<<<<<<< HEAD
   public readonly joined2020: number;
   public readonly ogAccount: number;
+=======
+  public readonly newAccount: number;
+>>>>>>> 8ed4ccda2839a520a250184eba4bf67c7626cb87
   constructor(
     userActivity: GitHubUserActivity,
     userIssue: GitHubUserIssue,
@@ -80,6 +90,7 @@ export class UserInfo {
         });
       }
     });
+<<<<<<< HEAD
     const durationTime = new Date().getTime() -
       new Date(userActivity.createdAt).getTime();
     const durationYear = new Date(durationTime).getUTCFullYear() - 1970;
@@ -91,18 +102,31 @@ export class UserInfo {
     const ogAccount =
       new Date(userActivity.createdAt).getFullYear() <= 2008 ? 1 : 0;
 
+=======
+    const durationTime = new Date().getTime() - new Date(userActivity.createdAt).getTime();
+    const durationYear = new Date(durationTime).getUTCFullYear() - 1970;
+    const ancientAccount = new Date(userActivity.createdAt).getFullYear() <= 2010 ? 1 : 0;
+    const newAccount = new Date(userActivity.createdAt).getFullYear() >= 2020 ? 1 : 0;
+>>>>>>> 8ed4ccda2839a520a250184eba4bf67c7626cb87
     this.totalCommits = totalCommits;
     this.totalFollowers = userActivity.followers.totalCount;
     this.totalIssues = userIssue.openIssues.totalCount + userIssue.closedIssues.totalCount;
     this.totalOrganizations = userActivity.organizations.totalCount;
     this.totalPullRequests = userPullRequest.pullRequests.totalCount;
+<<<<<<< HEAD
     this.totalReviews = userActivity.contributionsCollection.totalPullRequestReviewContributions;
+=======
+>>>>>>> 8ed4ccda2839a520a250184eba4bf67c7626cb87
     this.totalStargazers = totalStargazers;
     this.totalRepositories = userRepository.repositories.totalCount;
     this.languageCount = languages.size;
     this.durationYear = durationYear;
     this.ancientAccount = ancientAccount;
+<<<<<<< HEAD
     this.joined2020 = joined2020;
     this.ogAccount = ogAccount;
+=======
+    this.newAccount = newAccount;
+>>>>>>> 8ed4ccda2839a520a250184eba4bf67c7626cb87
   }
 }
