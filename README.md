@@ -35,6 +35,36 @@ git pull super-upstream main --allow-unrelated-histories
 
 About fully usage, you can check [How to use](/USAGE.md).
 
+## Recommand Use
+
+Using the query string parameter of `want[XX]` allows you to get the specified secret trophy unconditionally.
+
+```
+https://github-profile-trophy.screw-hand.vercel.app/?username=screw-hand&rank=SECRET&wantMultipleOrganizations=true
+```
+
+`want[xx]` full list:
+```ts
+wantAchieveSuperRank=true
+wantMultipleLang=true
+wantLongTimeAccount=true
+wantAncientAccount=true
+wantNewAccount=true
+wantMultipleOrganizations=true
+```
+
+Specially, using wantALL allows you to use one parameter and get all secret trophies.
+
+```
+https://github-profile-trophy.screw-hand.vercel.app/?username=screw-hand&rank=SECRET&wantAll=true
+```
+
+Filter out trophies of the specified level (UNKNOWN, C)
+
+```
+https://github-profile-trophy.screw-hand.vercel.app/?username=screw-hand&rank=-UNKNOWN,-C
+```
+
 ## Rank Systems
 
 Base Trophies require
@@ -62,28 +92,6 @@ Secret Trophies require
 ## Self-modify
 
 You'll have to deploy yourself, for [Vercel](/VercelDeployGuide.md) or [localhost](/LocalDeployGuide.md)
-
-Using the query string parameter of `want[XX]` allows you to get the specified secret trophy unconditionally.
-
-```
-https://github-profile-trophy.screw-hand.vercel.app/?username=screw-hand&rank=SECRET&wantMultipleOrganizations=true
-```
-
-`want[xx]` full list:
-```ts
-wantAchieveSuperRank=true
-wantMultipleLang=true
-wantLongTimeAccount=true
-wantAncientAccount=true
-wantNewAccount=true
-wantMultipleOrganizations=true
-```
-
-Specially, using wantALL allows you to use one parameter and get all secret trophies.
-
-```
-https://github-profile-trophy.screw-hand.vercel.app/?username=screw-hand&rank=SECRET&wantAll=true
-```
 
 ## Change logs
 
